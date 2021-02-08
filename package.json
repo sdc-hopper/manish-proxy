@@ -1,17 +1,22 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "Amazon-Proxy",
+  "version": "1.0.0",
+  "description": "Amazon proxy",
+  "author": "Barsha Shrestha",
+  "license": "na",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "server-dev": "nodemon server/server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "nodemon": "^2.0.7"
   }
 }
